@@ -93,7 +93,7 @@ __interrupt void watchdog_timer(void)
     pwm3_off = 0;
     count = 0; // and reset count.
   }
-  else //if(!(pwm1_off + pwm2_off + pwm3_off == 3))
+  else// if(!(pwm1_off + pwm2_off + pwm3_off == 3))
   {
     if( count > pwm1_val )
     {
@@ -137,8 +137,4 @@ __interrupt void watchdog_timer(void)
   count++;
 
   _BIS_SR(GIE); // Reenable Interrupts.
-}
-#pragma vector=TIMER0_A0_VECTOR
-__interrupt void Timer_A (void)
-{
 }

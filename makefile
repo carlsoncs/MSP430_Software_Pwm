@@ -1,8 +1,5 @@
-####INSTRUCTIONS####
-#Copy this file to it's dedicated location (right next to the source file)
-#Rename it to 'makefile' or 'MAKEFILE'
-#Enter the name of the sourcefile
-#use it and save time.
+# Generic Make File originally written by Colin Macreery
+
 
 # Project source, will handle .S & .c files
 SOURCE          = wdt_pwm_methods.c
