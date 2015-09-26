@@ -11,7 +11,6 @@ a message!
 
 
 
-
 Usage:
 
 Requirements:
@@ -29,10 +28,6 @@ Flashing:
 Clean:
 
 >make clean  
-
-
-
-
 
 
 
