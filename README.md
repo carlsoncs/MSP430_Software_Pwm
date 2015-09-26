@@ -19,15 +19,15 @@ You'll need a c compiler and you'll need the msp430 build tools from energia. Yo
 
 Building:
 
->$make
+>$ make
 
 Flashing:
 
->$make flash
+>$ make flash
 
 Clean:
 
->make clean  
+>$ make clean  
 
 
 
